@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dulkin Restaurant Menu - Our Culinary Offerings</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="cover">
+            <div class="logo">
+                <h1>Dulkin Restaurant</h1>
+                <h2>Dine in luxury</h2>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="aboutus.html">About</a></li>
+                    <li><a href="services.html" class="active">Menu</a></li>
+                    <li><a href="contactus.html">Contact</a></li>
+                </ul>
+                <div class="mobile-menu">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="menu-hero">
+            <div class="container">
+                <h1>Our Menu</h1>
+                <p>Discover our culinary creations</p>
+            </div>
+        </section>
+
+        <section class="menu-categories">
+            <div class="container">
+                <div class="category-tabs">
+                    <button class="tab-btn active" data-category="starters">Starters</button>
+                    <button class="tab-btn" data-category="mains">Main Courses</button>
+                    <button class="tab-btn" data-category="desserts">Desserts</button>
+                    <button class="tab-btn" data-category="drinks">Drinks</button>
+                </div>
+
+                
+                <div class="menu-section active" id="starters">
+                    <h2>Starters</h2>
+                    <div class="menu-grid">
+                        <div class="menu-item">
+                            <img src="image/gonjas.jpg" alt="gonja">
+                            <div class="menu-item-content">
+                                <h3>Roasted Gonja (Matoke) </h3>
+                                <p>Sweet plantains roasted or steamed, served with peanut sauce</p>
+                                <span class="price">Shs 8000</span>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <img src="image/muchomo.png" alt="muchomo">
+                            <div class="menu-item-content">
+                                <h3>Muchomo (Grilled Meat)</h3>
+                                <p>Skewered goat, beef, or chicken, marinated in spices.</p>
+                                <span class="price">Shs 10000</span>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <img src="image/katogo.jpeg" alt="katogo">
+                            <div class="menu-item-content">
+                                <h3>Katogo</h3>
+                                <p>A mix of matoke, liver, or beef stewed with vegetables.</p>
+                                <span class="price">Shs 12000</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="menu-section" id="mains">
+                    <h2>Main Courses</h2>
+                    <div class="menu-grid">
+                        <div class="menu-item">
+                            <img src="image/posho.jpg" alt="Posho">
+                            <div class="menu-item-content">
+                                <h3>Posho, fish & vegetables</h3>
+                                <p>Maize porridge (posho) served with stewed vegetables.</p>
+                                <span class="price">Shs 18000</span>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <img src="image/matooke.jpg" alt="matooke">
+                            <div class="menu-item-content">
+                                <h3>Matoke & beef stew</h3>
+                                <p>Green bananas (plantains) peeled, wrapped in banana leaves, and steamed until soft and beef stew. </p>
+                                <span class="price">Shs 20000</span>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <img src="image/rolex.jpg" alt="rolex">
+                            <div class="menu-item-content">
+                                <h3>Rolex</h3>
+                                <p>Chapati rolled with eggs, tomatoes, and onions</p>
+                                <span class="price">Shs 15000</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="menu-section" id="desserts">
+                    <h2>Desserts</h2>
+                    <div class="menu-grid">
+                        <div class="menu-item">
+                            <img src="image/millet.jpg" alt="millet">
+                            <div class="menu-item-content">
+                                <h3>Apple Millet Porridge</h3>
+                                <p> Warm, creamy millet flour porridge sweetened with honey or sugar and apple</p>
+                                <span class="price">Shs 12000</span>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <img src="image/simsim.jpg" alt="sim sim">
+                            <div class="menu-item-content">
+                                <h3> Simsim Candies</h3>
+                                <p>Crunchy sesame seeds bound with melted sugar or honey into bars</p>
+                                <span class="price">Shs 10000</span>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <img src="image/madazi.webp" alt="madazi">
+                            <div class="menu-item-content">
+                                <h3>Mandazi (East African Donuts)</h3>
+                                <p> Fluffy, triangular deep-fried dough bites flavored with coconut milk</p>
+                                <span class="price">Shs 7000</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="menu-section" id="drinks">
+                    <h2>Drinks</h2>
+                    <div class="accordion">
+                        <div class="accordion-item">
+                            <button class="accordion-btn">Wines <i class="fas fa-chevron-down"></i></button>
+                            <div class="accordion-content">
+                                <div class="drink-item">
+                                    <h4>Chenin Blanc (White)</h4>
+                                    <p>Best with Fried Tilapia, Rolex</p>
+                                    <span class="price">Shs 28000/glass</span>
+                                </div>
+                                <div class="drink-item">
+                                    <h4>Pinotage (Red)</h4>
+                                    <p>Best with Nyama Choma, Beef Luwombo</p>
+                                    <span class="price">Shs 32000/glass</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <button class="accordion-btn">Traditional wines <i class="fas fa-chevron-down"></i></button>
+                            <div class="accordion-content">
+                                <div class="drink-item">
+                                    <h4>Banana wine </h4>
+                                    <p>A mildly alcoholic, fizzy wine made from fermented bananas</p>
+                                    <span class="price">Shs 12000</span>
+                                </div>
+                                <div class="drink-item">
+                                    <h4>Munanasi (Pineapple Wine)</h4>
+                                    <p>A fruity, tropical wine made from fermented pineapples</p>
+                                    <span class="price">Shs 10000</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <button class="accordion-btn">Non-Alcoholic <i class="fas fa-chevron-down"></i></button>
+                            <div class="accordion-content">
+                                <div class="drink-item">
+                                    <h4>House-made Lemonade</h4>
+                                    <p>With seasonal fruit infusions</p>
+                                    <span class="price">Shs 5000</span>
+                                </div>
+                                <div class="drink-item">
+                                    <h4>Avocado Smoothie </h4>
+                                    <p>Blended ripe avocado with milk and sugar—creamy</p>
+                                    <span class="price">Shs 6500</span>
+                                </div>
+                                <div class="drink-item">
+                                    <h4>Passion Fruit Juice </h4>
+                                    <p> A tropical favorite—sweet, tart, and full of flavor with passion fruits</p>
+                                    <span class="price">Shs 9500</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="specials-section">
+            <div class="container">
+                <h2>Seasonal Specials</h2>
+                <div class="specials-carousel">
+                    <div class="carousel-container">
+                        <div class="carousel-slide">
+                            <div class="special-item">
+                                <img src="image/Nsenene.webp" alt="">
+                                <h3>Nsenene (Grasshoppers)</h3>
+                                <p>Available November/December & May/June</p>
+                            </div>
+                            <div class="special-item">
+                                <img src="image/maize.webp" alt="">
+                                <h3>Roasted Maize</h3>
+                                <p>Served with a squeeze of lime and chili in dry seasons.</p>
+                            </div>
+                            <div class="special-item">
+                                <img src="image/mushrooms.jpg" alt="">
+                                <h3>Fresh Mushrooms</h3>
+                                <p>Available March/May & September/November</p>
+                            </div>
+                        </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Dulkin Restaurant</h3>
+                    <p><br>Fort-Portal City <br> Lugard street</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Hours of service</h3>
+                    <p>Monday - Thursday: 7am - 10pm<br>
+                    Friday - Saturday: 8am - 12pm<br>
+                    Sunday: 9am - 10pm</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Connect</h3>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/getting_started/"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2025 Dulkin Restaurant. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="javascript.js"></script>
+</body>
+</html>
